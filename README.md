@@ -6,13 +6,13 @@ Utilizing present and futuristic Quantum Computers to solve difficult problems i
 
 
 ## Model Explanation
-![Model-Diagram](Assets/CP048_fig1.png)
+![Model-Diagram](Assets/CP048_fig1.jpg)
 
 
 
 ## Results
-![Model-Diagram](Assets/CP048_fig2 (1).png)
-![Model-Diagram](Assets/CP048_fig4 (1).png)
+![Model-Diagram](Assets/CP048_fig2 (1).jpg)
+![Model-Diagram](Assets/CP048_fig4 (1).jpg)
 
 ## Conclusion and Future Plans
 
