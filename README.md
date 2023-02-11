@@ -8,7 +8,11 @@ Utilizing present and futuristic Quantum Computers to solve difficult problems i
 ## Model Explanation
 ![Model-Diagram](Assets/CP048_fig1.jpg)
 
-
+## Simulation
+Our workflow through the codes is done as follows:
+* gen_ldpc.m: To generate LDPC matrix
+* codewordVerify.m: To generate parity bits corresponding to given message bits and then combine them to get the total codeword and further verify it.
+* Decoding.py: This contains the actual code for adding noise and then decoding using Simulated/Quantum Annealing.
 
 ## Results
 ![Model-Diagram](Assets/CP048_fig2 (1).jpg)
