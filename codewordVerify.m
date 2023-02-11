@@ -1,0 +1,13 @@
+rows = 6;
+cols = 20;
+H = gen_ldpc(rows, cols);
+[newh,rearranged_cols]=rearrange_cols(H); %for singular matrices
+A = H(:,1:rows);
+A_inv = inv(A);
+B = H(:,rows+1:end);
+G2 = A_inv * B;
+message = [1 0 1 1 0 1 0 0 1 0 1 1 0 1];
+m = message';
+res = mod(G2*m,2);
+res2 = [1 0 1 1 1 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1];
+verif = mod(H*res2',2);
